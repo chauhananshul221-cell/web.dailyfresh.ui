@@ -1,5 +1,5 @@
 import React from "react";
-import clock1 from '..//assets/clock 1.svg'
+import clock1 from '..//assets/clock_1.svg'
 import gift2 from '..//assets/gift2.svg'
 import package3 from '..//assets/package3.svg'
 import refresh4 from '..//assets/refresh-cw4.svg'

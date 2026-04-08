@@ -1,6 +1,6 @@
 import React from "react";
-import Daily from "../assets/Daily Fresh.jpg";
-import Signin from "../assets/signup-g img.svg";
+import Daily from "../assets/Daily-Fresh.jpg";
+import Signin from "../assets/signup-g-img.svg";
 import Footer from "../Components/Footer";
 
 function AcctSignup() {

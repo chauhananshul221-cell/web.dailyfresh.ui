@@ -1,6 +1,6 @@
 // import React from "react";
 import { useState } from "react";
-import Daily from "../assets/Daily Fresh.jpg";
+import Daily from "../assets/Daily-Fresh.jpg";
 import { CiSearch } from "react-icons/ci";
 import { CiLocationOn } from "react-icons/ci";
 import { CiHeart } from "react-icons/ci";

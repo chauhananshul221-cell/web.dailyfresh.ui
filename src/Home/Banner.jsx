@@ -1,5 +1,5 @@
 import React from "react";
-import Fruit from "..//assets/grocery-banner 1.png";
+import Fruit from "..//assets/grocery-banner-1.png";
 import Vegetable from "..//assets/grocery-banner-2.jpg";
 
 function Banner() {

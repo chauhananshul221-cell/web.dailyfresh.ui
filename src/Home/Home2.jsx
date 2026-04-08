@@ -1,5 +1,5 @@
 // import React from "react";
-import Fresh from "../assets/freshcart-logo.svg";
+import Daily from "../assets/Daily-Fresh.jpg";
 import { CiSearch } from "react-icons/ci";
 import { CiLocationOn } from "react-icons/ci";
 import { CiHeart } from "react-icons/ci";
@@ -15,12 +15,12 @@ import Adbanner from "../assets/ad-banner-1.jpg";
 import Adbanner2 from "../assets/ad-banner-2.jpg";
 import Adbanner3 from "../assets/ad-banner-3.jpg";
 {/*shop */}
-import Snack  from '../assets/category-Snack-munchies 1.jpg'
-import Bakery  from '../assets/category-bakery-biscuits 2.jpg'
-import Instant  from '../assets/category-instant-food 3.jpg'
-import tea from '../assets/category-tea-coffee-drinks 4.jpg'
+import Snack  from '../assets/category-Snack-munchies_1.jpg'
+import Bakery  from '../assets/category-bakery-biscuits_2.jpg'
+import Instant  from '../assets/category-instant-food_3.jpg'
+import tea from '../assets/category-tea-coffee-drinks_4.jpg'
 import Ata from '../assets/category-atta-rice-dal_5.jpg'
-import Baby from '../assets/category-baby-care 6.jpg'
+import Baby from '../assets/category-baby-care_6.jpg'
 import Header1 from "../Components/Header1";
 import Header2 from "../Components/Header2";
 import Details from "./Details";
@@ -35,7 +35,7 @@ function Home2() {
      
        <Header1/>
        <Header2/>
-                    {/* Welcome to fresh cart */}
+                    {/* Welcome to Daily  Fresh */}
                     <div className="w-[1296px] h-[500px] mx-auto mt-[50px]">
                         <div className="flex items-center justify-between bg-gray-200 p-4 rounded-[10px]">
                             <div className="flex gap-[20px] items-center">
@@ -43,13 +43,13 @@ function Home2() {
                           style={{ backgroundImage: `url(${About})` }}
                           />  
                           <div className=""> 
-                          <h2 className="text-[30px] font-semibold">Welcome to FreshCart</h2>  
+                          <h2 className="text-[30px] font-semibold">Welcome to DailyFresh</h2>  
                           <p>Download the app get free food <span className="text-green-600">& $30</span> off on your first order.</p>
                           </div>  
                           </div>  
                           <div className="w-[250px] h-[50px] border border-black p-2 justify-center flex rounded-[7px] text-white bg-[#001e2b]">
                             <a href="">
-                                <button>Download FreshCart App</button>
+                                <button>Download DailyFresh App</button>
                             </a>
                             </div>           
                         </div>

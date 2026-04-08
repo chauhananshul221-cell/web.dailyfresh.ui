@@ -10,9 +10,9 @@ import Stores6 from "..//assets/stores-logo-6.svg"
 import Stores7 from "..//assets/stores-logo-7.svg"
 import Stores8 from "..//assets/stores-logo-8.svg"
 import Stores9 from "..//assets/stores-logo-9.svg"
-import Stores10 from "..//assets/stores-logo-2 (1).svg"
-import Stores11 from "..//assets/stores-logo-3 (1).svg"
-import Stores12 from "..//assets/stores-logo-4 (1).svg"
+import Stores10 from "..//assets/stores-logo-2-(1).svg"
+import Stores11 from "..//assets/stores-logo-3-(1).svg"
+import Stores12 from "..//assets/stores-logo-4-(1).svg"
 import Header1 from '../Components/Header1';
 import Header2 from '../Components/Header2';
 import Footer from '../Components/Footer';

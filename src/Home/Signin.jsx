@@ -1,5 +1,5 @@
 import React from "react";
-import Daily from "../assets/Daily Fresh.jpg";
+import Daily from "../assets/Daily-Fresh.jpg";
 import Signins from "../assets/signin-g1.svg";
 import Footer from "../Components/Footer";
 import { Link } from "react-router-dom";
