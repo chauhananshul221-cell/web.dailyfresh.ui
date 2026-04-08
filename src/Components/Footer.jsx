@@ -1,6 +1,6 @@
 import React from 'react'
 import Amazon from "../assets/amazonpay.svg";
-import American from "../assets/American-express.svg";
+import American from "../assets/american-express.svg";
 import Mastercard from "../assets/mastercard.svg";
 import Paypal from "../assets/paypal.svg";
 import Visa from "../assets/visa.svg";
