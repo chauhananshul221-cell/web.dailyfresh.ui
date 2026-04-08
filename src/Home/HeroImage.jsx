@@ -62,7 +62,7 @@ function HeroImage() {
   return (
     <>
   
-    <div className="z-10 w-[1296px] mx-auto mt-8">
+    <div className="z-10 w-[1296px] mx-auto mt-8 hidden md:flex">
       <AliceCarousel
         items={items}
         autoPlay

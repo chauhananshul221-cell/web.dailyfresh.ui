@@ -78,76 +78,75 @@ function Popular({ cart = [], setCart = () => {} }) {
           🛒 Cart Items: {cart?.reduce((acc, item) => acc + item.quantity, 0) || 0}
         </p> */}
 
-        <div className="grid grid-cols-5 gap-[30px] mt-[20px]">
-          {Products.map((items) => {
+<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 mt-5">
+  {Products.map((items) => {
 
-            const productQty =
-              cart?.find(p => p.id === items.id)?.quantity || 0;
+    const productQty =
+      cart?.find(p => p.id === items.id)?.quantity || 0;
 
-            return (
-              <div key={items.id}>
-                <div className="w-[240px] border border-[#5C6C75] rounded-[10px] hover:border-[#0aad0a] hover:shadow-2xl">
+    return (
+      <div key={items.id}>
+        <div className="w-full border border-[#5C6C75] rounded-[10px] hover:border-[#0aad0a] hover:shadow-2xl">
 
-                  <div className="w-[262px] h-[200px]">
-                    <img src={items.Image} className="ml-[10px]" />
-                  </div>
+          <div className="w-full h-[200px] flex justify-center items-center">
+            <img src={items.Image} className="h-[160px] object-contain" />
+          </div>
 
-                  <div className="ml-4 mb-[30px] p-2">
-                    <p>{items.category}</p>
-                    <h2 className="font-bold">{items.name}</h2>
+          <div className="ml-4 mb-[30px] p-2">
+            <p>{items.category}</p>
+            <h2 className="font-bold">{items.name}</h2>
 
-                    <div className="flex gap-[10px] mt-[10px]">
-                      <StarRating rating={items.rating} />
-                      <p>
-                        {items.rating} ({items.reviews})
-                      </p>
-                    </div>
+            <div className="flex gap-[10px] mt-[10px]">
+              <StarRating rating={items.rating} />
+              <p>
+                {items.rating} ({items.reviews})
+              </p>
+            </div>
 
-                    <div className="flex justify-between mt-[20px]">
-                      <div className="flex gap-[5px]">
-                        <span>${items.Price}</span>
-                        {items.oldPrice && (
-                          <span className="line-through text-gray-400">
-                            ${items.oldPrice}
-                          </span>
-                        )}
-                      </div>
-
-                      {productQty === 0 ? (
-                        <button
-                          onClick={() => addToCart(items)}
-                          className="bg-green-500 px-3 py-1 text-white rounded-md"
-                        >
-                          + Add
-                        </button>
-                      ) : (
-                        <div className="flex items-center gap-2">
-                          <button
-                            onClick={() => decreaseQty(items)}
-                            className="bg-green-500 px-2 text-white rounded"
-                          >
-                            -
-                          </button>
-
-                          <span>{productQty}</span>
-
-                          <button
-                            onClick={() => addToCart(items)}
-                            className="bg-green-500 px-2 text-white rounded"
-                          >
-                            +
-                          </button>
-                        </div>
-                      )}
-
-                    </div>
-                  </div>
-
-                </div>
+            <div className="flex justify-between mt-[20px]">
+              <div className="flex gap-[5px]">
+                <span>${items.Price}</span>
+                {items.oldPrice && (
+                  <span className="line-through text-gray-400">
+                    ${items.oldPrice}
+                  </span>
+                )}
               </div>
-            );
-          })}
+
+              {productQty === 0 ? (
+                <button
+                  onClick={() => addToCart(items)}
+                  className="bg-green-500 px-3 py-1 text-white rounded-md"
+                >
+                  + Add
+                </button>
+              ) : (
+                <div className="flex items-center gap-2">
+                  <button
+                    onClick={() => decreaseQty(items)}
+                    className="bg-green-500 px-2 text-white rounded"
+                  >
+                    -
+                  </button>
+
+                  <span>{productQty}</span>
+
+                  <button
+                    onClick={() => addToCart(items)}
+                    className="bg-green-500 px-2 text-white rounded"
+                  >
+                    +
+                  </button>
+                </div>
+              )}
+            </div>
+          </div>
+
         </div>
+      </div>
+    );
+  })}
+</div>
       </div>
     </>
   );
