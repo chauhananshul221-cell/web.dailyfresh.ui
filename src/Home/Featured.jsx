@@ -5,7 +5,7 @@ import Snack  from '../assets/category-Snack-munchies 1.jpg'
 import Bakery  from '../assets/category-bakery-biscuits 2.jpg'
 import Instant  from '../assets/category-instant-food 3.jpg'
 import Tea from '../assets/category-tea-coffee-drinks 4.jpg'
-import Ata from '../assets/category-atta-rice-dal 5.jpg'
+import Ata from '../assets/category-atta-rice-dal_5.jpg'
 import Baby from '../assets/category-baby-care 6.jpg'
 
 function Featured() {
