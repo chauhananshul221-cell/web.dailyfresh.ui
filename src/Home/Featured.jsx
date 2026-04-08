@@ -1,7 +1,7 @@
  
 
 import React from 'react'
-import Snack  from '../assets/category-Snack-munchies_1.jpg'
+import Snack  from '../assets/category-snack-munchies_1.jpg'
 import Bakery  from '../assets/category-bakery-biscuits_2.jpg'
 import Instant  from '../assets/category-instant-food_3.jpg'
 import Tea from '../assets/category-tea-coffee-drinks_4.jpg'

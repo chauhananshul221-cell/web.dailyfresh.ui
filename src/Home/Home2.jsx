@@ -14,8 +14,8 @@ import About from "../assets/about-icons-1.svg";
 import Adbanner from "../assets/ad-banner-1.jpg";
 import Adbanner2 from "../assets/ad-banner-2.jpg";
 import Adbanner3 from "../assets/ad-banner-3.jpg";
-{/*shop */}
-import Snack  from '../assets/category-Snack-munchies_1.jpg'
+
+import Snack  from '../assets/category-snack-munchies_1.jpg'
 import Bakery  from '../assets/category-bakery-biscuits_2.jpg'
 import Instant  from '../assets/category-instant-food_3.jpg'
 import tea from '../assets/category-tea-coffee-drinks_4.jpg'
